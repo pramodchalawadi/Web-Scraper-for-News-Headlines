@@ -1,2 +1,27 @@
-# Web-Scraper-for-News-Headlines
-This project is a Python web scraper that collects the latest news headlines from a public website. It uses requests to fetch the webpage and BeautifulSoup to parse HTML tags. The extracted headlines are saved into a .txt file automatically. It demonstrates automation in data collection using simple Python tools.
+Web Scraper for News Headlines
+ Project Description
+
+This project is a Python web scraper that collects the latest news headlines from a public website.
+It uses requests to fetch the webpage and BeautifulSoup to parse HTML tags.
+The extracted headlines are saved into a .txt file automatically.
+It demonstrates automation in data collection using simple Python tools.
+
+ How to Run
+
+Install dependencies:
+
+pip install requests beautifulsoup4
+
+
+Run the script:
+
+python news_scraper.py
+
+
+Check the headlines.txt file for saved headlines.
+
+ Deliverables
+
+news_scraper.py → Python script for scraping
+
+headlines.txt → File containing extracted headlines
